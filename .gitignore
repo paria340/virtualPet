@@ -1,0 +1,63 @@
+# Ignore build files
+/build/
+/target/
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore logs
+*.log
+*.out
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore dependency managers
+/.gradle/
+/.gradle/
+/.mvn/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logging.properties
+
+# Ignore compiled Java files
+*.class
+
+# Ignore JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore Maven and Gradle wrapper files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore test results
+/test-results/
+surefire-reports/
+
+# Ignore configuration files
+*.env
+*.properties
+
+# Ignore backup files
+*.~*
+
+# Ignore sensitive or local config files
+secret-config.properties
+.env
+credentials.json
